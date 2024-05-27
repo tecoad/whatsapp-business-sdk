@@ -196,7 +196,7 @@ export type InteractiveActionSection = {
 	 * Required for Multi-Product Messages.
 	 * Array of product objects. There is a minimum of 1 product per section and a maximum of 30 products across all sections.
 	 */
-	product_items: {
+	product_items?: {
 		/**
 		 * Unique identifier of the product in a catalog.
 		 */
